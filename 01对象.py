@@ -10,8 +10,8 @@ class Student:  # 类名首字母大写
         print("{0}的分数是：{1}".format(self.name, self.score))
         print("我的公司是：",Student.company)
         print(Student.count)
-#print(type(Student("宋志敏", 30)))
-s1 = Student("宋志敏", 30)  # 通过类名（）调用构造函数
+#print(type(Student("张三", 30)))
+s1 = Student("张三", 30)  # 通过类名（）调用构造函数
 print(type(s1))
 # s1.age = 32   # 对象
 # s1.salary = 3000  # 对象
