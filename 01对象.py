@@ -22,3 +22,4 @@ s2 = Student("张新", 40)
 s2.say_score()
 #  print(dir(s1)) # 可以获取对象的所有属性、方法
 print(s1.__dict__) # 对象的属性字典
+#备注
